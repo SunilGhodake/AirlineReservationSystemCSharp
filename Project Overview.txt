@@ -1,0 +1,29 @@
+Project Overview:
+
+Project Type: Windows Forms (WinForms) application
+
+Language: C# (ADO .NET)
+Main Project File: AirlineReservationSystem
+
+Key Components:
+Forms (UI):
+Form1.cs: Likely the main or login form.
+Home.cs: Possibly the dashboard or landing page after login.
+NewCustomer.cs: Form to add new customer details.
+NewFlight.cs: Form to register or manage flights.
+PaymentType.cs: Form to select or manage payment types.
+
+Resources & Design:
+.Designer.cs and .resx files are paired with each form for layout and resource management.
+Configuration:
+App.config: Contains connection strings or application-level settings.
+Program Entry Point:
+Program.cs: Standard entry point of the WinForms application.
+
+Database:
+Files: airline.mdf and airline_log.ldf
+
+---------------------
+LoginID:Admin
+Password:Admin
+
