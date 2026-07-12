@@ -12,7 +12,7 @@ namespace AirlineReservationSystemCSharp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (TextBox1.Text == "Admin" || TextBox2.Text == "Admin")
+            if (TextBox1.Text.ToLower() == "admin" && TextBox2.Text.ToLower() == "admin")
             {
                 MessageBox.Show("You are logged in successfully..");
                 this.Visible = false;
@@ -29,7 +29,5 @@ namespace AirlineReservationSystemCSharp
         {
 
         }
-
-        
     }
 }

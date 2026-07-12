@@ -156,35 +156,38 @@
             // 
             // Button5
             // 
+            this.Button5.BackColor = System.Drawing.Color.Red;
             this.Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button5.Location = new System.Drawing.Point(486, 538);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(80, 33);
             this.Button5.TabIndex = 50;
             this.Button5.Text = "Delete";
-            this.Button5.UseVisualStyleBackColor = true;
+            this.Button5.UseVisualStyleBackColor = false;
             this.Button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // Button4
             // 
+            this.Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button4.Location = new System.Drawing.Point(189, 538);
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(80, 33);
             this.Button4.TabIndex = 49;
             this.Button4.Text = "Add";
-            this.Button4.UseVisualStyleBackColor = true;
+            this.Button4.UseVisualStyleBackColor = false;
             this.Button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // Button2
             // 
+            this.Button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.Location = new System.Drawing.Point(342, 538);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(75, 33);
             this.Button2.TabIndex = 48;
             this.Button2.Text = "Update";
-            this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.UseVisualStyleBackColor = false;
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Button1
@@ -313,7 +316,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(691, 508);
+            this.ClientSize = new System.Drawing.Size(737, 584);
             this.Controls.Add(this.ComboBox5);
             this.Controls.Add(this.ComboBox4);
             this.Controls.Add(this.ComboBox3);
